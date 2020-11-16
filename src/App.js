@@ -1,27 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Game from './Game';
 
 
 const App =(props)=> {
   
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+    return (<Game 
+    nombre="Battlefield 4" 
+    consola="PS4" 
+    lanzamiento="2013" 
+    img="https://i5.walmartimages.ca/images/Enlarge/390/942/1390942.jpg"/> );
   
 
 }
