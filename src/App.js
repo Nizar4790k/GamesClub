@@ -1,16 +1,23 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Game from './Game';
+import GameList from './GameList';
+import { Component } from 'react';
+import games from './data/game.json';
 
 
-const App =(props)=> {
-  
-    return (<Game 
-    nombre="Battlefield 4" 
-    consola="PS4" 
-    lanzamiento="2013" 
-    img="https://i5.walmartimages.ca/images/Enlarge/390/942/1390942.jpg"/> );
-  
+
+class App extends Component {
+
+    constructor() {
+        super();
+        this.state = { games: games };
+        console.log(games);
+    }
+    render() {
+        return (<GameList games={this.state.games}/>)
+    }
+
+ 
 
 }
 

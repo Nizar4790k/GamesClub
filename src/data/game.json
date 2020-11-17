@@ -1,0 +1,59 @@
+[
+    {
+      "nombre": "God of War",
+      "info": "Adéntrate en las espesuras nórdicas, donde Kratos deberá controlar su legendaria ira; no solo para aprender de su sangriento pasado, sino para darle a su hijo un futuro",
+      "img": "assets/img/kratos.png",
+      "lanzamiento": "2018",
+      "consola":"Playstation"
+    },
+    {
+      "nombre": "The Last of Us Part ||",
+      "info": "Experimenta un brutal mundo pospandémico en el que cómo sobrevives es casi tan importante como sobrevivir. El siguiente capítulo de la atormentada aventura de Ellie empieza aquí.",
+      "img": "assets/img/thelast.png",
+      "lanzamiento": "2020",
+      "consola":"Playstation"
+    },
+    {
+      "nombre": "Uncharted 4: El Desenlace del Ladrón",
+      "info": "Únete al legendario (y jubilado) cazafortunas Nathan Drake en otra última aventura por todo el mundo en la que se verá forzado a decidir qué es capaz de sacrificar para salvar a las personas que ama.",
+      "img": "assets/img/uncharted.png",
+      "lanzamiento": "2016",
+      "consola": "Playstation"
+    },
+    {
+      "nombre": "Marvel’s Spider-Man",
+      "info": "Deslízate en un mundo abierto lleno de acción, malvados supervillanos y grandes responsabilidades; ponte la emblemática máscara y conviértete en Spider-Man en esta aventura completamente nueva y auténtica.",
+      "img": "assets/img/spiderman.png",
+      "lanzamiento": "2018",
+      "consola":"Playstation"
+    },
+    {
+      "nombre": "Halo: The Master Chief Collection",
+      "info": "The Master Chief Collection es una remasterización de los videojuego de disparos en primera persona de la saga Halo ",
+      "img": "assets/img/halo.png",
+      "lanzamiento": "2014",
+      "consola": "XBOX"
+    },
+    {
+      "nombre": "FOR HONOR",
+      "info": "Entra en el caos de la guerra como un valiente caballero, un vikingo brutal o un samurái mortal. Empuña tu arma como nunca antes con el innovador sistema de combate Art of Battle que te permite controlar a tu guerrero..",
+      "img": "assets/img/honor.png",
+      "lanzamiento": "2017",
+      "consola": "XBOX"
+    },
+    {
+      "nombre": "Tom Clancy’s Splinter Cell",
+      "info": "Libera el poder o el agente más letal que jamás haya existido. Eres Sam Fisher y se te ha dado la máxima libertad para proteger a los inocentes contra una serie de ataques terroristas globales conocidos como Blacklist: la libertad de usar una fuerza ilimitada, violar todas las leyes y convertirte en el operativo más mortífero del mundo. Si tiene éxito, el presidente de los Estados Unidos negará que exista. Si fallas, millones morirán..",
+      "img": "assets/img/splinter.png",
+      "lanzamiento": "2013",
+      "consola": "XBOX"
+    },
+
+    {
+      "nombre": "Skyrim",
+      "info": "The Elder Scrolls V: Skyrim es un ARPG del tipo mundo abierto..",
+      "img": "assets/img/skyrim.png",
+      "lanzamiento": "2011",
+      "consola": "XBOX"
+    }
+]
