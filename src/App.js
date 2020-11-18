@@ -3,6 +3,7 @@ import './App.css';
 import GameList from './GameList';
 import { Component } from 'react';
 import games from './data/game.json';
+import NavBar from './NavBar';
 
 
 
@@ -14,7 +15,12 @@ class App extends Component {
         console.log(games);
     }
     render() {
-        return (<GameList games={this.state.games}/>)
+        return (
+            <div>
+                <NavBar/>
+                <GameList games={this.state.games}/>
+            </div>
+        )
     }
 
  
