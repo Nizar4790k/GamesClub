@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Game = (props)=>{
+const Game = ({nombre,consola,lanzamiento,img})=>{
     
     
 return(
-    <div className="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 center">
-        <img alt='games'src={`${props.img}`}/>
+    <div className="dib br3 pa3 ma2 grow bw2 shadow-5">
+        <img alt='games'src={`${img}`} width='200px' height='200px'/>
             <div>
-                <h2>Titulo:{props.nombre}</h2>
-                <h4>Plataforma:{props.consola}</h4>
-                <h6>Lanzamiento:{props.lanzamiento}</h6>
+                <h2>Titulo:{nombre}</h2>
+                <h4>Plataforma:{consola}</h4>
+                <h6>Lanzamiento:{lanzamiento}</h6>
             </div>
 
     </div>
