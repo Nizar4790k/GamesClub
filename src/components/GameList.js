@@ -8,6 +8,7 @@ const GameList = ()=>{
         <div>
             {games.map((game,i)=>{
                 return (<Game
+                key = {i}
                 img={games[i].img}
                 nombre={games[i].nombre}
                 lanzamiento={games[i].lanzamiento}

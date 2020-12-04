@@ -4,21 +4,25 @@ import {Link} from 'react-router-dom';
 
 const NavBar = (props)=>{
 
+    
+
     return(
-        <div>
+        <div >
            <nav>
-               <ul>
-                <li>GamesClub</li>
-                <li><Link to={'/'}>Home</Link></li>
+               <ul className="topnav">
+                <li><Link>GamesClub</Link></li>
+                <li><Link className="active"to={'/'}>Home</Link></li>
                 <li><Link to={'/gamelist'}>Juegos</Link></li>  
                 <li><Link to={'/about'}>About</Link></li>
                </ul>
-           </nav>
+               </nav>
          </div>
 
          
     )
 
 }
+
+
 
 export default NavBar;
