@@ -1,8 +1,8 @@
 import React from 'react';
 import 'tachyons';
 import Game from './Game'
-
-const GameList = ({games})=>{
+import games from '../data/game.json';
+const GameList = ()=>{
 
     return(
         <div>
