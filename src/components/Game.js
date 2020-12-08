@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from './Button';
+
 import "./Game.css"
 const Game = ({nombre,consola,lanzamiento,img})=>{
     
@@ -10,8 +12,8 @@ return(
                 <h1>{nombre}</h1>
                 <h4>Plataforma:{consola}</h4>
                 <h6>Lanzamiento:{lanzamiento}</h6>
-                <button>Detalles</button>
             </div>
+            <Button/>
 
     </div>
 
