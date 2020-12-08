@@ -11,7 +11,6 @@ const NavBar = (props)=>{
            <nav>
                <ul className="topnav">
                 <li><Link to={'/'}>GamesClub</Link></li>
-                <li><NavLink activeClassName="active" to={'/home'}>Home</NavLink></li>
                 <li><NavLink activeClassName="active" to={'/gamelist'}>Juegos</NavLink></li>  
                 <li><NavLink activeClassName="active" to={'/about'}>About</NavLink></li>
                </ul>
