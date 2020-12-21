@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 import "./Game.css"
-const Game = ({nombre,consola,lanzamiento,img})=>{
+const Game = ({nombre,consola,lanzamiento,img,id})=>{
     
     
 return(
@@ -13,7 +13,7 @@ return(
                 <h4>Plataforma:{consola}</h4>
                 <h6>Lanzamiento:{lanzamiento}</h6>
             </div>
-            <Button/>
+            <Button id={id}/>
 
     </div>
 

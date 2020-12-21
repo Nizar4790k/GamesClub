@@ -9,6 +9,7 @@ const GameList = ()=>{
             {games.map((game,i)=>{
                 return (<Game
                 key = {i}
+                id ={i}
                 img={games[i].img}
                 nombre={games[i].nombre}
                 lanzamiento={games[i].lanzamiento}
