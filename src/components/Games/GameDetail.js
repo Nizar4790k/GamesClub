@@ -15,33 +15,21 @@ const GameDetail = ({ match }) => {
   }
 
 
-
-
-
-
-  console.log(game);
-
   return (
     <div className="container">
       <div className="title">
-      <h1>Titulo:{game.nombre}</h1>
+      <h1 className="card-title">Titulo:{game.nombre}</h1>
       </div>
 
 
-      <img src={`${game.img}`} alt="Game img" width="200px" height="400px" />
+      <img className="img-thumbnail" src={`/${game.img}`} alt="game" />
 
-
-      <h3>Plataforma:{game.consola}</h3>
-      <p>Sobre el juego:{game.info}</p>
-      <h3>Lanzamiento:{game.lanzamiento}</h3>
+      <br></br>
+      <p className="card-text"><b>Plataforma:</b>{game.consola}</p>
+      <p className="card-text"><b>Sobre el juego:</b>{game.info}</p>
+      <h3 className="card-text"><small>Lanzamiento:{game.lanzamiento}</small></h3>
      
-    
-
-
-
-    
-      
-      <button onClick={getBack}>Atras</button>
+      <button className="btn btn-danger btn-block" onClick={getBack}>Atras</button>
      
      
 
