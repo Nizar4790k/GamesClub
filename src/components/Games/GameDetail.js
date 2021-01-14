@@ -22,7 +22,7 @@ const GameDetail = ({ match }) => {
       </div>
 
 
-      <img className="img-thumbnail" src={`/${game.img}`} alt="game" />
+      <img className="img-thumbnail" src={`/${game.img}`} width="350px" height="350px" alt="game" />
 
       <br></br>
       <p className="card-text"><b>Plataforma:</b>{game.consola}</p>
