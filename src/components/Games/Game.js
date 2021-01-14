@@ -17,7 +17,7 @@ const Game = ({ game, id }) => {
 
    
 
-      <div className='col'>
+      <div className=' col-sm-12 col-md-6 col-lg-4 col-xl-4'>
 
         <div className='card dib br3 pa3 ma2 grow bw2 shadow-5' style={{ width: '18rem' }} >
 
