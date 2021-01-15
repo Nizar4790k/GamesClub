@@ -15,7 +15,9 @@ class App extends Component {
       <Router>
         <NavBar />
         <Switch>
+
           <Route path="/" exact component={Home}></Route>
+          <Route path="/GamesClub/" exact component={Home}></Route>
           <Route path="/games" exact component={GameList}></Route>
           <Route path="/games/:id" exact component={GameDetails}></Route>
           <Route path="/about" exact component={About}></Route>

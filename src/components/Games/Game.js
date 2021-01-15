@@ -21,7 +21,7 @@ const Game = ({ game, id }) => {
 
         <div className='card dib br3 pa3 ma2 grow bw2 shadow-5' style={{ width: '18rem' }} >
 
-          <img alt="game" src={`${img}`} className='card-img-top img-thumbnail' width='150px' height='130px' />
+          <img alt="game" src={`/GamesClub/${img}`} className='card-img-top img-thumbnail' width='150px' height='130px' />
 
           <div className='card-body'>
             <h1 className='card-title'>{nombre}</h1>
