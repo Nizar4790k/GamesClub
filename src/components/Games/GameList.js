@@ -6,7 +6,7 @@ import games from "../../data/game.json";
 
 const GameList = () => {
   return (
-    <div className='container'>
+    <div>
       <div className='row'>
       {games.map((game, i) => {
         return <Game key={i} game={game} id={i} />;

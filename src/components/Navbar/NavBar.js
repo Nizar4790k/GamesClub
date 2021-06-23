@@ -8,7 +8,9 @@ const NavBar = (props) => {
       <nav>
         <ul className="topnav">
           <li>
-            <Link to={"/GamesClub"}>GamesClub</Link>
+            <NavLink activeClassName="active" to={"/GamesClub"}>
+              Home
+            </NavLink>
           </li>
           <li>
             <NavLink activeClassName="active" to={"/games"}>
