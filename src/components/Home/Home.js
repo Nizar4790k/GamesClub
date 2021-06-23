@@ -5,10 +5,10 @@ import './Home.css';
 const Home = () =>{
 
     return (
-        <div className="container">
+        <div className="container box">
          <h1>Games Club</h1>
-         <p>This is page about some games for Playstation and Xbox</p>
-         <button>Go to games</button>
+         <p>Esta plataforma trata sobre algunos juegos para las consolas Playstation y XBOX</p>
+         <button className="btn btn-primary">Ver juegos</button>
          </div>
     );
 
