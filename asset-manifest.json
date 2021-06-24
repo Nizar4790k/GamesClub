@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/GamesClub/static/css/main.8ac430f7.chunk.css",
-    "main.js": "/GamesClub/static/js/main.908064c7.chunk.js",
-    "main.js.map": "/GamesClub/static/js/main.908064c7.chunk.js.map",
-    "runtime-main.js": "/GamesClub/static/js/runtime-main.a5a9afac.js",
-    "runtime-main.js.map": "/GamesClub/static/js/runtime-main.a5a9afac.js.map",
-    "static/css/2.093ce1bd.chunk.css": "/GamesClub/static/css/2.093ce1bd.chunk.css",
-    "static/js/2.6a7fafbe.chunk.js": "/GamesClub/static/js/2.6a7fafbe.chunk.js",
-    "static/js/2.6a7fafbe.chunk.js.map": "/GamesClub/static/js/2.6a7fafbe.chunk.js.map",
-    "static/js/3.0adb79fa.chunk.js": "/GamesClub/static/js/3.0adb79fa.chunk.js",
-    "static/js/3.0adb79fa.chunk.js.map": "/GamesClub/static/js/3.0adb79fa.chunk.js.map",
+    "main.css": "/GamesClub/static/css/main.4141708f.chunk.css",
+    "main.js": "/GamesClub/static/js/main.efd89496.chunk.js",
+    "main.js.map": "/GamesClub/static/js/main.efd89496.chunk.js.map",
+    "runtime-main.js": "/GamesClub/static/js/runtime-main.552e3847.js",
+    "runtime-main.js.map": "/GamesClub/static/js/runtime-main.552e3847.js.map",
+    "static/css/2.e739a72f.chunk.css": "/GamesClub/static/css/2.e739a72f.chunk.css",
+    "static/js/2.063be0cc.chunk.js": "/GamesClub/static/js/2.063be0cc.chunk.js",
+    "static/js/2.063be0cc.chunk.js.map": "/GamesClub/static/js/2.063be0cc.chunk.js.map",
+    "static/js/3.5fa1f049.chunk.js": "/GamesClub/static/js/3.5fa1f049.chunk.js",
+    "static/js/3.5fa1f049.chunk.js.map": "/GamesClub/static/js/3.5fa1f049.chunk.js.map",
     "index.html": "/GamesClub/index.html",
-    "static/css/2.093ce1bd.chunk.css.map": "/GamesClub/static/css/2.093ce1bd.chunk.css.map",
-    "static/css/main.8ac430f7.chunk.css.map": "/GamesClub/static/css/main.8ac430f7.chunk.css.map",
-    "static/js/2.6a7fafbe.chunk.js.LICENSE.txt": "/GamesClub/static/js/2.6a7fafbe.chunk.js.LICENSE.txt"
+    "static/css/2.e739a72f.chunk.css.map": "/GamesClub/static/css/2.e739a72f.chunk.css.map",
+    "static/css/main.4141708f.chunk.css.map": "/GamesClub/static/css/main.4141708f.chunk.css.map",
+    "static/js/2.063be0cc.chunk.js.LICENSE.txt": "/GamesClub/static/js/2.063be0cc.chunk.js.LICENSE.txt",
+    "static/media/ps_controller.df779443.png": "/GamesClub/static/media/ps_controller.df779443.png",
+    "static/media/xbox_controller.c579567e.png": "/GamesClub/static/media/xbox_controller.c579567e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5a9afac.js",
-    "static/css/2.093ce1bd.chunk.css",
-    "static/js/2.6a7fafbe.chunk.js",
-    "static/css/main.8ac430f7.chunk.css",
-    "static/js/main.908064c7.chunk.js"
+    "static/js/runtime-main.552e3847.js",
+    "static/css/2.e739a72f.chunk.css",
+    "static/js/2.063be0cc.chunk.js",
+    "static/css/main.4141708f.chunk.css",
+    "static/js/main.efd89496.chunk.js"
   ]
 }
